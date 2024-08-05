@@ -29,3 +29,17 @@ Here we are copy nums[] element start from 0th index To newarr[] but here we put
 
 look in this picture we copy 0th index element to last index of newarr[]<- num.length
 And we copy till num.length
+
+## Full Code
+
+```java
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int[] newarr = new int[nums.length * 2];
+
+        System.arraycopy(nums,0,newarr,0,nums.length);
+        System.arraycopy(nums, 0, newarr, nums.length, nums.length);
+        return newarr;
+    }
+}
+```
