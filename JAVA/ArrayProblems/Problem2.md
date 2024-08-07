@@ -32,5 +32,3 @@ for that we first take reminder of elment that have satisfiy if condition
 and subtract that elemnet value by reminder 
 Like 4 % 3 = 1 -> 4 - 1 = 3 -> 3 % 3 = 0 
 and we +1 counter where we subtract reminder 
-
-And Backchodi Khtam !!!1
